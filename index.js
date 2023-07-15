@@ -7,10 +7,10 @@ const searchForm = document.querySelector("[data-searchForm]");
 const loadingScreen = document.querySelector(".loading-container");
 const userInfoContainer = document.querySelector(".user-info-container");
 
-//initially vairables need????
+
 
 let oldTab = userTab;
-const API_KEY = "699d86b42036506ee212e81330e040234";//Random API KEY given
+const API_KEY = "699d86fd42036506e212e81330e040234";//Random API KEY given
 oldTab.classList.add("current-tab");
 getfromSessionStorage();
 
